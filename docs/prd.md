@@ -26,12 +26,18 @@ Primary Goal: Empower individuals to track and analyze their training while prov
 
 ### Individual User (Mobile App)
 
+- As an Individual, I can quickly log a new workout or climb from a single, prominent button.
 - As an Individual, I can quickly log a climb with details like grade, type, and location.
 - As an Individual, I can quickly log climbing specific exercises. Fingerboard training, Aerobic wall training...
 - As an Individual, I can quickly log standard exercises. Pull ups, bench press...
 - As an Individual, I can create template workouts, template weekly training plans and reuse them.
 - As an Individual, I can view my performance dashboard on my phone to track my progress.
 - As an Individual, I can see training plans and workouts assigned to me by my coach.
+- As an Individual, I can communicate with my coach through the app.
+
+- As an Individual, I can view my performance dashboard on my phone to track my progress.
+- As an Individual, I can see training plans and workouts assigned to me by my coach.
+- As an Individual, I can create new custom exercises, whether climbing-specific or not.
 - As an Individual, I can communicate with my coach through the app.
 
 ### Coach User (Web Portal)
@@ -43,8 +49,7 @@ Primary Goal: Empower individuals to track and analyze their training while prov
 
 ### Shared Features
 
-- As a user, I can search for climbing gyms.
-- As a user, I can contribute new routes to a gym's database.
+- As a user, I can contribute new routes to a user-generated database.
 
 ## 4. Non-Functional Requirements
 

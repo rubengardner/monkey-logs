@@ -1,35 +1,25 @@
-# Project Brief: Climbing Logs Application
+# Project Brief: Monkey Logs Application
 
 ## 1. Market Analysis
 
-The rock climbing and bouldering market has seen steady growth, driven by an
-increasing interest in fitness, outdoor activities, and the social aspects of
-the sport. While many climbers use pen-and-paper or simple digital notes to
-track their progress, there's a significant opportunity for a dedicated application.
-Key competitors include apps like "Vertical Life," "The Climbing App,"
-and "Chalkboard," which offer features like route logging, community
-leaderboards, and gym information. Our product can differentiate itself by
-focusing on a streamlined user experience, detailed analytics,
-and a vibrant community-driven logging system.
+The rock climbing and bouldering market is expanding, with a growing focus on structured training and performance tracking. While many logging apps exist, there is a gap for a platform that specifically caters to a training-focused user base, providing distinct experiences for both climbers and their coaches. Our product can differentiate itself by offering a unified system for tracking and coaching, empowering users to manage their own progress or to be guided by a professional.
 
 ## 2. User Personas
 
-- **The Weekend Warrior:** A casual climber who wants an easy way to log their climbs, track personal bests, and share achievements with friends. They value simplicity and a clean interface.
+- **The Individual Climber:** A user who wants a simple, effective tool to log their workouts and climbs. They need a mobile-first experience to quickly track their progress, analyze their own performance, and create custom exercises.
 
-- **The Dedicated Trainer:** A serious climber focused on continuous improvement. They need advanced analytics, training plans, and the ability to track specific metrics like sends, falls, and projecting routes over time.
-
-- **The Social Climber:** Primarily motivated by community. They use the app to find new climbing partners, discover local gyms, and see what their friends are climbing. They value social features like photo sharing and commenting.
+- **The Coach:** A climbing coach who needs a powerful, web-based platform to manage their students. They require tools to create training plans, monitor student progress, and provide feedback to their team.
 
 ## 3. Core Features & Value Proposition
 
-The "climbing-logs" application will provide the following core features:
+The Monkey Logs application will provide the following core features:
 
-- **Effortless Climb Logging:** A quick and intuitive interface for logging climbs, including grade, type (e.g., top-rope, lead, bouldering), and notes.
+- **Unified Logging:** A single, intuitive mobile interface for Individuals to log both climbs and general training exercises, including the ability to create custom workouts.
 
-- **Performance Analytics:** Dashboards to visualize user progress over time, including total climbs, grades climbed, and personal milestones.
+- **Dual Platforms:** A mobile app designed for on-the-go use by Individuals and a powerful web portal for Coaches.
 
-- **Social & Community Integration:** Users can follow friends, like and comment on their climbs, and discover popular routes in their area.
+- **Coach-Student Hierarchy:** A system that allows coaches to assign training plans and view their students' progress in a centralized location.
 
-- **Gym & Route Database:** A crowdsourced database of climbing gyms and routes, complete with ratings and user reviews.
+- **Performance Analytics:** Visual dashboards for both Individuals and Coaches to track and analyze progress over time.
 
-Our primary value proposition is to provide an all-in-one platform that combines powerful personal analytics with a strong community focus, catering to both serious and casual climbers.
+Our primary value proposition is to be the definitive training and coaching tool for climbers, offering a seamless, integrated experience that goes beyond simple logging.
