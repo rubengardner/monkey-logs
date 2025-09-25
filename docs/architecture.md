@@ -107,6 +107,15 @@ graph TD
 - **WorkoutTemplate:** A reusable workout definition, composed of `ActivityGroup`s.
 - **ActivityGroup:** A group of one (`SINGLE`) or more (`SUPERSET`) exercises within a template.
 
+### Future Coaching Models (High-Level)
+
+To support future coaching features, a key model will be the `AssignedWorkout`.
+
+*   **`AssignedWorkout`:** Represents a `WorkoutTemplate` that a coach has assigned to a specific user (student) for a particular date. This acts as a scheduled instance of a template.
+    *   **Purpose:** To allow coaches to schedule specific training routines for their clients.
+    *   **Key Attributes:** Links to a `WorkoutTemplate`, a `User` (assignee), a `User` (assigner/coach), a `scheduledDate`, and an optional link to the `Workout` (logged session) that results from its completion. It will also have a `status` (e.g., `PENDING`, `COMPLETED`).
+    *   **Relationship:** One `WorkoutTemplate` can be assigned many times. One `AssignedWorkout` can result in one `Workout` (logged session).
+
 ## 5. API Specification
 
 The API will be a REST API defined with the OpenAPI 3.0 standard. It will feature endpoints for managing all data models, such as `POST /sessions` and `POST /logs/workout`. The API will use a discriminator pattern to handle the polymorphic `ExerciseLog` data.
