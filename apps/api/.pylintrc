@@ -1,0 +1,21 @@
+[MASTER]
+disable=
+    C0114, C0115, C0116, R0801, W1203
+
+# Files or directories to be skipped. They should be base names, not paths
+ignore=tests,test_*.py,conftest.py
+
+# Add files or directories matching the regex patterns to the ignore-list
+ignore-patterns=test_.*\.py,.*_test\.py
+
+[BASIC]
+min-public-methods=0
+
+[FORMAT]
+max-line-length=120
+
+[SIMILARITIES]
+min-similarity-lines=10
+ignore-comments=yes
+ignore-docstrings=yes
+ignore-imports=yes
